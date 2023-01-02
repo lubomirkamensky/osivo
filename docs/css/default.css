@@ -1,0 +1,226 @@
+/* IMPORT SDILENYCH NASTAVENI ========================== */
+@import url("../shared/css/application.css");
+@import url("../shared/css/database.css");
+@import url("../shared/css/icons.css");
+@import url("../shared/css/menu.css");
+@import url("../shared/css/rpc.css");
+@import url("../shared/css/table_layout.css");
+@import url("../shared/css/tools.css");
+@import url("../shared/css/window.css");
+@import url("../shared/css/web.css");
+/* ===================================================== */
+body {
+	background: #255a15 url("../images/bg/body.jpg") no-repeat top;
+	background-size: 2300px;
+	text-align: center;
+}
+body, table {
+	color: #001c00;
+	font-family: 'Signika', sans-serif; font-size: 14px;
+}
+a {
+	color: #001c00;
+}
+a:hover {
+	color: #000000;
+}
+/* LAYOUT ============================================== */
+table.layout {
+	margin: 0px auto 0px auto;
+	margin-bottom: 10px;
+	text-align: left;
+	width: 990px;
+}
+/* top ------------------------------------------------- */
+table.layout td.top {
+	background-color: rgba(243, 247, 249, 0.7); _background-color: #cad6bf;
+	height: 30px;
+	text-align: right;
+	vertical-align: bottom;
+}
+table.layout td.top div.content {
+	border-bottom: 2px solid #757871;
+	margin: 10px 20px 5px 20px;
+	padding: 0px 0px 5px 10px;
+}
+table.layout td.top div.content div.day {
+	float: left;
+}
+table.layout td.top div.content form.search {
+}
+table.layout td.top div.content form.search input.text {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	width: 132px; _width: 135px; _height: 22px;
+}
+table.layout td.top div.content form.search input.submit {
+	background-color: #001c00;
+	border: 1px solid #001c00;
+	color: #ffffff;
+	margin-left: 5px;
+	width: 60px; _height: 22px;
+}
+/* menu ------------------------------------------------ */
+table.layout td.menu {
+	background-color: rgba(243, 247, 249, 0.7); _background-color: #cad6bf;
+	height: 50px;
+}
+table.layout td.menu div.content {
+	border-bottom: 2px solid #757871;
+	margin: 0px 20px 10px 20px;
+	padding: 0px 0px 5px 0px;
+}
+table.layout td.menu div.content ul.menu li {
+	display: inline;
+}
+table.layout td.menu div.content ul.menu li a {
+	color: #001c00;
+	font-size: 19px;
+	padding: 0px 35px 0px 35px;
+	margin-left: 30px;
+	text-decoration: none;
+}
+table.layout td.menu div.content ul.menu li.first a {
+	margin-left: 0px;
+}
+table.layout td.menu div.content ul.menu li a:hover {
+	text-decoration: underline;
+}
+/* logo ------------------------------------------------ */
+table.layout td.logo {
+	background: url("../images/bg/logo.png") no-repeat;
+	text-align: center;
+	vertical-align: middle;
+	height: 170px;
+}
+table.layout td.logo div.content {
+}
+/* head ------------------------------------------------ */
+table.layout td.head {
+	background-color: rgba(243, 247, 249, 0.7); _background-color: #cad6bf;
+	height: 70px;
+}
+table.layout td.head div.content {
+	border-bottom: 2px solid #757871;
+	border-top: 2px solid #757871;
+	margin: 10px 20px 10px 20px;
+	padding: 5px 0px 5px 0px;
+}
+table.layout td.head div.content ul.menu li {
+	display: inline;
+}
+table.layout td.head div.content ul.menu li a {
+	color: #001c00;
+	font-size: 19px;
+	padding: 0px 23px 0px 23px;
+	text-decoration: none;
+}
+table.layout td.head div.content ul.menu li.last a {
+	padding-right: 0px;
+}
+table.layout td.head div.content ul.menu li a:hover {
+	text-decoration: underline;
+}
+/* left ------------------------------------------------ */
+table.layout td.left {
+	background-color: rgba(243, 247, 249, 0.7); _background-color: #cad6bf;
+	width: 175px;
+}
+table.layout td.left div.content {
+	margin: 0px 20px 10px 20px;
+}
+/* menu */
+table.layout td.left div.content ul.menu {
+}
+table.layout td.left div.content ul.menu li a {
+	color: #001c00;
+	display: block;
+	padding: 0px 0px 5px 0px;
+	text-decoration: none;
+}
+table.layout td.left div.content ul.menu li a:hover {
+	text-decoration: underline;
+}
+table.layout td.left div.content ul.menu li ul {
+	background-color: #;
+	width: px;
+}
+/* main ------------------------------------------------ */
+table.layout td.main {
+	background-color: rgba(243, 247, 249, 0.7); _background-color: #cad6bf;
+	width: 640px;
+}
+table.layout td.main div.content {
+}
+table.layout td.main div.content h3 {
+	font-size: 22px;
+}
+table.layout td.main div.content h4 {
+	background-color: #ffffff;
+	font-size: 20px;
+	padding: 5px 0px 5px 5px;
+	margin: 0px 0px 0px 0px;
+}
+table.layout td.main div.content h5 {
+	font-size: 18px;
+}
+table.layout td.main div.content div.text {
+	line-height: 140%;
+}
+table.layout td.main div.content div.text div.html {
+	background-color: #ffffff;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 5px 0px;
+}
+/* fotogalerie */
+table.layout td.main div.content div.images div.ico {
+	background-color: #ffffff;
+	line-height: 100%;
+	margin: 5px 5px 5px 5px;
+}
+table.layout td.main div.content div.images div a img,
+table.layout td.main div.content img.foto {	
+	border: none;
+}
+/* uriznute ikony u souboru a nastroju (pokud je mala velikost pisma) */
+table.layout td.main div.content div.alert,
+table.layout td.main div.content div.info,
+table.layout td.main div.content div.files div.ico a {
+	padding: 2.5 0 2.5 20px;
+}
+/* right ----------------------------------------------- */
+table.layout td.right {
+	background-color: rgba(243, 247, 249, 0.7); _background-color: #cad6bf;
+	width: 175px;
+}
+table.layout td.right div.content {
+	margin: 0px 20px 10px 20px;
+}
+table.layout td.right div.content div.text h4 {
+	border-bottom: 1px solid #575556;
+	font-size: 14px;
+	padding: 5px 0px 5px 0px;
+	margin: 0px 0px 5px 0px;
+	text-transform: uppercase;
+}
+table.layout td.right div.content div.text a.map {
+	background: url("../images/bg/link_map.png") no-repeat;
+	display: block;
+	height: 136px;
+	width: 136px;
+}
+table.layout td.right div.content div.text a.map span {
+	display: none;
+}
+table.layout td.right div.content div.text div.weather {
+	background-color: #ffffff;
+}
+/* bottom ---------------------------------------------- */
+table.layout td.bottom {
+	background-color: rgba(243, 247, 249, 0.7); _background-color: #cad6bf;
+	height: 30px;
+	text-align: center;
+}
+table.layout td.bottom div.content {
+	
+}
